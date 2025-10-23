@@ -1,5 +1,5 @@
 let numSorteados = []; //Lista para armazenar números já sorteados em uma sessão de jogo.
-let numLimite = 10; //Número que limita a quantidade de números sorteados.
+let numLimite = 15; //Número que limita a quantidade de números sorteados.
 let numSecreto = numeroAleatorio(); //Variável que guarda o número aleatório gerado pela função.
 let tentativas = 1;
 
@@ -12,7 +12,7 @@ function exibirTextoNaTela(tag, texto) {  //Exibe o texto na tela.
 
 function exibirMensagemInicial() {  //Exibe a mensagem inicial do jogo.
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Escolher um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolher um número entre 1 e 15');
 }
 
 exibirMensagemInicial();
